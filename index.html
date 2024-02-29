@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay Kapse</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <section id="one">
+        <div class="header1">
+            <div class="head">
+                <header>
+                    <div class="logo">
+                        <div class="logo-text">Tanmay Kapse</div>
+                    </div>
+                    <nav>
+                        <div class="new">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="Skills.html">Skills</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="container">
+                    <div class="pic">
+                        <img src="t2.jpg" alt="profile">
+                    </div>
+                    <div class="home-content">
+                        <h5>Hello, I am <span class="input">Fullstack developer</span></h5>
+                        <h1>Tanmay Kapse</h1>
+                        <p>I am a Fullstack Java Developer
+                            <br>expertise in designing web applications, web design, etc....
+                        </p>
+                        <div class="home-sci">
+                            <a href="https://www.instagram.com/tanmay_kapse_patil/?igshid=ZDdkNTZiNTM%3D"><i class="fab fa-facebook"></i></a>
+                            <a href="www.linkedin.com/in/
+                            tanmay-kapse-139819251
+                            "><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/tanmay_kapse_patil/?igshid=ZDdkNTZiNTM%3D"><i class="fab fa-instagram"></i></a>
+
+                            <div class="btn-group">
+                                <a href="Tanmay_Kapse_8830203568 new.pdf" class="btn-box">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+<span class="right">&copy; 2024 Tanmay Kapse</span>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        var New = document.querySelector(".new");
+        var nav = document.querySelector(".nav");
+        var links = document.querySelectorAll(".nav li");
+
+        New.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+
+        var typed = new Typed(".input", {
+            strings: ["Fullstack Developer", "Memer", "Java Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
